@@ -1,0 +1,128 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa; /* Soft, light gray for a more elegant and modern look */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, #6a5acd, #8a2be2); /* Elegant purple gradient */
+    width: 100%;
+    padding: 20px 0; /* Slightly more padding for a grander look */
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Softer shadow for a subtle depth */
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px; /* Slightly larger font for better readability */
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffd700; /* Golden yellow for a touch of elegance */
+}
+
+/* Profile Container */
+.profile-container {
+    background: #ffffff;
+    padding: 30px; /* Increased padding for a more spacious feel */
+    border-radius: 20px; /* Slightly larger border-radius for a smoother, more elegant look */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); /* More subtle shadow for refinement */
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid #8a2be2; /* Match header color */
+    margin-bottom: 15px;
+}
+
+/* Headings */
+h1 {
+    color: #2f4f4f; /* Muted dark teal for a sophisticated look */
+    font-size: 32px; /* Slightly larger heading for emphasis */
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #6a5acd; /* Elegant purple for consistency */
+    font-size: 24px; /* Larger subheading for elegance */
+    margin: 20px 0 10px;
+    border-bottom: 3px solid #6a5acd; /* Thicker border for emphasis */
+    display: inline-block;
+}
+
+/* Text */
+p, li {
+    color: #333333; /* Darker gray for readability and elegance */
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+ul {
+    padding: 0;
+    text-align: left;
+    list-style: square inside;
+}
+
+li {
+    color: #444444; /* Slightly darker for contrast */
+    padding: 8px 0;
+    font-size: 16px; /* Slightly adjusted for consistency */
+}
+
+/* Contact */
+.contact {
+    font-size: 14px;
+    color: #444444; /* Darker gray for contact information */
+    font-weight: bold;
+}
+
+/* Links */
+a {
+    color: #6a5acd; /* Elegant purple */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #8a2be2; /* Slightly brighter purple for hover effect */
+}
+
+/* Section Styling */
+.section {
+    background: #ffffff;
+    padding: 25px; /* Slightly increased padding for a more luxurious feel */
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08); /* Softer shadow for refinement */
+    max-width: 600px;
+    width: 90%;
+    margin: 25px 0; /* Slightly more spacing between sections */
+}

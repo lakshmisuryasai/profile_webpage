@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fafafa; /* Soft, light gray for a more elegant and modern look */
+    background-color:2px solid #8a2be2; /* Soft, light gray for a more elegant and modern look */
     display: flex;
     flex-direction: column;
     align-items: center;
